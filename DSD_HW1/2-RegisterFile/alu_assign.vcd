@@ -1,0 +1,112 @@
+$date
+	Wed Mar 20 11:15:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module register_file_tb $end
+$var wire 8 ! busY [7:0] $end
+$var wire 8 " busX [7:0] $end
+$var reg 1 # Clk $end
+$var reg 3 $ RW [2:0] $end
+$var reg 3 % RX [2:0] $end
+$var reg 3 & RY [2:0] $end
+$var reg 1 ' WEN $end
+$var reg 8 ( busW [7:0] $end
+$scope module rf $end
+$var wire 1 # Clk $end
+$var wire 3 ) RW [2:0] $end
+$var wire 3 * RX [2:0] $end
+$var wire 3 + RY [2:0] $end
+$var wire 1 ' WEN $end
+$var wire 8 , busW [7:0] $end
+$var wire 8 - busX [7:0] $end
+$var wire 8 . busY [7:0] $end
+$var reg 8 / busX_w [7:0] $end
+$var reg 8 0 busY_w [7:0] $end
+$var reg 8 1 r0_r [7:0] $end
+$var reg 8 2 r0_w [7:0] $end
+$var reg 8 3 r1_r [7:0] $end
+$var reg 8 4 r1_w [7:0] $end
+$var reg 8 5 r2_r [7:0] $end
+$var reg 8 6 r2_w [7:0] $end
+$var reg 8 7 r3_r [7:0] $end
+$var reg 8 8 r3_w [7:0] $end
+$var reg 8 9 r4_r [7:0] $end
+$var reg 8 : r4_w [7:0] $end
+$var reg 8 ; r5_r [7:0] $end
+$var reg 8 < r5_w [7:0] $end
+$var reg 8 = r6_r [7:0] $end
+$var reg 8 > r6_w [7:0] $end
+$var reg 8 ? r7_r [7:0] $end
+$var reg 8 @ r7_w [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+b11111111 ,
+b101 +
+b10 *
+b0 )
+b11111111 (
+0'
+b101 &
+b10 %
+b0 $
+0#
+bx "
+bx !
+$end
+#500
+1#
+#1000
+0#
+b10101010 (
+b10101010 ,
+b110 $
+b110 )
+1'
+#1500
+b10101010 >
+b10101010 =
+1#
+#2000
+b10101010 "
+b10101010 -
+b10101010 /
+0#
+b111 &
+b111 +
+b110 %
+b110 *
+#2500
+1#
+#3000
+0#
